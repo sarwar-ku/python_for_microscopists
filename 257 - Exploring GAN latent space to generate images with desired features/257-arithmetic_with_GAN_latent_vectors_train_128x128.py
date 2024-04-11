@@ -23,6 +23,10 @@ and a baby with neutral face and then generate a smiling baby face by:
 # Import the required libraries
 from numpy import zeros, ones
 from numpy.random import randn, randint
+from tensorflow import Adam
+from tensorflow import Sequential
+from tensorflow import Dense, Reshape, Flatten, Conv2D, Conv2DTranspose, LeakyReLU, Dropout
+from tensorflow import plot_model
 
 from tensorflow.keras.optimizers import Adam
 from tensorflow.keras.models import Sequential
